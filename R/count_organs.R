@@ -24,5 +24,5 @@ count_organs <- function(x){
   ggplot(data = dat)+
     geom_bar(aes(x = organ.rough, y = n), stat = "identity")+
     theme_bw()+
-    theme(axis.text = element_text(angle = 90))
+    theme(axis.text = element_text(angle = 45))
 }
